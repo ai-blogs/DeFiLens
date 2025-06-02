@@ -3,7 +3,7 @@ name: Automated Crypto Blog Creator
 on:
   schedule:
     # Run every 1 hours at the 0-minute mark
-    - cron: '0 */1 * * *'
+    - cron: '0 */3 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
